@@ -3,7 +3,7 @@ import AppRoutes from "./routes/AppRoutes";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/realEstateASM"> {/* שים את שם המאגר כאן */}
       <div className="app">
         <AppRoutes />
       </div>
